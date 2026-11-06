@@ -2,7 +2,9 @@
 
 Álvaro S. González, Center for Global Development (agonzalez@cgdev.org)
 
-Package version 1.0.0, November 5, 2026. CGD Working Paper [NUMBER], [MONTH] 2026. Repository and DOI: [to be added after deposit on GitHub and Zenodo].
+Package version 1.0.0, verified November 5, 2026. CGD Working Paper [NUMBER], [MONTH] 2026.
+
+Repository: https://github.com/Econoguayo/revealing-the-subsidy-replication. Each release is archived on Zenodo, which assigns it a DOI; the DOI of the archived copy is shown on the repository page.
 
 ## Overview
 
@@ -14,7 +16,7 @@ The code is in Python and falls into two components. The concessionality compone
 
 ### Statement about rights
 
-All data used in the paper come from public web pages of the World Bank Group and from public announcements by the organizations named below. The package redistributes a snapshot of the IDA PSW project list, fields extracted from IFC and MIGA project disclosures together with the sentence in which each concessionality estimate appears, and the text of the World Bank lists of fragile and conflict-affected situations for FY2018 to FY2025. The archived disclosure pages themselves are not redistributed; the package lists their addresses, retrieval times and SHA-256 checksums. The terms of use of each source govern reuse of material drawn from it. The license of the package is set out in `LICENSE.md` [to be decided before publication].
+All data used in the paper come from public web pages of the World Bank Group and from public announcements by the organizations named below. The package redistributes a snapshot of the IDA PSW project list, fields extracted from IFC and MIGA project disclosures together with the sentence in which each concessionality estimate appears, and the text of the World Bank lists of fragile and conflict-affected situations for FY2018 to FY2025. The archived disclosure pages themselves are not redistributed; the package lists their addresses, retrieval times and SHA-256 checksums. The terms of use of each source govern reuse of material drawn from it. The code is licensed under the MIT License (`LICENSE`); the data compiled for this package, its outputs and its documentation are licensed under the Creative Commons Attribution 4.0 International License (`LICENSE-DATA.md`). Material drawn from the third-party sources listed below keeps the terms of its source.
 
 ### Summary of availability
 
@@ -71,7 +73,8 @@ The package was not run on Windows or macOS. `run_all.py` uses only the Python s
 | `3_model/` | The model component, version 2026-11-04a: contract implementation, exact solver, tests, exercises, results and table scripts |
 | `4_paper_tables/` | Tables with the paper's labels and numbering, and the checks of the numbers stated in the text |
 | `tools/` | Integrity check |
-| `CITATION.cff`, `.zenodo.json`, `LICENSE.md` | Citation, deposit metadata and license (license to be decided) |
+| `CITATION.cff`, `.zenodo.json` | Citation and deposit metadata |
+| `LICENSE`, `LICENSE-DATA.md` | Licenses: MIT for the code; CC BY 4.0 for data, outputs and documentation |
 
 ### Concessionality component (`1_concessionality/code/`)
 

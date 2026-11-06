@@ -2,12 +2,22 @@
   "title": "Replication package for: Revealing the Subsidy: Competitive Allocation of Concessional Finance in Fragile States",
   "upload_type": "software",
   "version": "1.0.0",
-  "publication_date": "2026-11-05",
   "creators": [
-    {"name": "González, Álvaro S.", "affiliation": "Center for Global Development"}
+    {
+      "name": "González, Álvaro S.",
+      "affiliation": "Center for Global Development"
+    }
   ],
-  "description": "Code, frozen inputs, outputs and verification records for the numerical exercises (participation, selection and posted-offer comparisons under the LPVS contract), the concessionality exhibit built from IDA Private Sector Window disclosures, and the Scaling Solar participation table of the CGD Working Paper \"Revealing the Subsidy\". See README.md.",
-  "keywords": ["auctions", "blended finance", "concessional finance", "fragile states", "IDA Private Sector Window", "state-contingent contracts", "replication package"],
-  "related_identifiers": [],
-  "notes": "TO BE COMPLETED BEFORE DEPOSIT: license (see LICENSE.md); related_identifiers (URL of the published working paper, relation isSupplementTo)."
+  "description": "Code, frozen inputs, outputs and verification records for the numerical exercises (participation, selection and posted-offer comparisons under the LPVS contract), the concessionality exhibit built from IDA Private Sector Window disclosures, and the Scaling Solar participation table of the CGD Working Paper \"Revealing the Subsidy\". See README.md. Code is licensed under the MIT License; data, outputs and documentation under CC BY 4.0 (see LICENSE-DATA.md).",
+  "keywords": [
+    "auctions",
+    "blended finance",
+    "concessional finance",
+    "fragile states",
+    "IDA Private Sector Window",
+    "state-contingent contracts",
+    "replication package"
+  ],
+  "license": "MIT",
+  "access_right": "open"
 }

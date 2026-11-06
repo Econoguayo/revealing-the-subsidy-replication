@@ -3,13 +3,15 @@ message: "If you use this replication package, please cite the working paper and
 title: "Replication package for: Revealing the Subsidy: Competitive Allocation of Concessional Finance in Fragile States"
 type: software
 version: "1.0.0"
-date-released: "2026-11-05"
+date-released: "2026-11-06"
+license: ["MIT", "CC-BY-4.0"]
+repository-code: "https://github.com/Econoguayo/revealing-the-subsidy-replication"
 authors:
   - family-names: "González"
     given-names: "Álvaro S."
     affiliation: "Center for Global Development"
     email: "agonzalez@cgdev.org"
-# TO BE COMPLETED AFTER DEPOSIT: doi (Zenodo), repository-code (GitHub URL), license (see LICENSE.md)
+# doi: to be added after the Zenodo deposit
 preferred-citation:
   type: report
   title: "Revealing the Subsidy: Competitive Allocation of Concessional Finance in Fragile States"
