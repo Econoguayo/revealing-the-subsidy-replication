@@ -11,7 +11,7 @@ authors:
     given-names: "Álvaro S."
     affiliation: "Center for Global Development"
     email: "agonzalez@cgdev.org"
-# doi: to be added after the Zenodo deposit
+doi: "10.5281/zenodo.24013716"
 preferred-citation:
   type: report
   title: "Revealing the Subsidy: Competitive Allocation of Concessional Finance in Fragile States"

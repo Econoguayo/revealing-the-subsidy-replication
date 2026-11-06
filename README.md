@@ -4,7 +4,7 @@
 
 Package version 1.0.0, verified November 5, 2026. CGD Working Paper [NUMBER], [MONTH] 2026.
 
-Repository: https://github.com/Econoguayo/revealing-the-subsidy-replication. Each release is archived on Zenodo, which assigns it a DOI; the DOI of the archived copy is shown on the repository page.
+Repository: https://github.com/Econoguayo/revealing-the-subsidy-replication. Archived copy of version 1.0.0 on Zenodo: https://doi.org/10.5281/zenodo.24013716 (DOI for all versions: https://doi.org/10.5281/zenodo.24013715).
 
 ## Overview
 
