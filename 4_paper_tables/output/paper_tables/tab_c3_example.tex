@@ -1,0 +1,10 @@
+\begin{table}[htbp]\centering\small
+\caption{Two-sponsor auction: both sponsors evaluated at the awarded cap (arrears entry 0.10, $W = 30$, costless exit)}\label{tab:c3example}
+\begin{threeparttable}\begin{tabular}{ccccccccc}\toprule
+ & & & & \multicolumn{5}{c}{At the awarded cap}\\\cmidrule(l){5-9}
+$c$ & $\rho$ & Bid $V^*$ & Outcome & $E[S]$ & Target & Exit & Expiry & $U - \omega$\\\midrule
+25 & 0.10 & 0.000 & wins & 0.689 & 0.60 & 0.15 & 0.25 & 1.23\\
+24 & 0.15 & 1.125 & accepts, loses & 0.587 & 0.74 & 0.10 & 0.16 & 0.00\\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} Second-price award between the two sponsors: the sponsor with the lower bid wins, and the awarded cap equals the other bid, 1.125. Both sponsors are evaluated at that cap. $E[S]$ is expected discounted disbursement; Target, Exit and Expiry are the probabilities that the concession ends by reaching $W$, by the sponsor's exit and at $\bar T$; $U - \omega$ is sponsor surplus, with $\omega = 0$. Source: \texttt{c3\_selection.py}, saved type stage \texttt{results\_c3/c3\_type\_stage.json}.\end{tablenotes}
+\end{threeparttable}\end{table}

@@ -1,0 +1,7 @@
+id,location,claim,computed,verdict
+W1,Sec. 4,support 0.8 x (26 - 20) = 4.8 a year,4.8,match
+W2,Sec. 4,three years of support cost about 9.8 in present value at 5 percent,9.754,match
+W3,Sec. 4,"complete nonpayment: 20.8 a year, about 42.3 in present value, exhausting the cap of 42",20.8 a year; 42.268,match
+A1,App. A,U(V) - U(V') = 15.27 - 0.0432 L,15.27051 - 0.04319188 L,match
+A2,App. A,positive for any L below about 354,root 353.55,match
+A3,App. A,continuation dominates exit whenever L is below 416; binding comparison: continuation under V at the end of period 2,"V, end of period 1: 510.2; V, end of period 2: 416.0; V', end of period 1: 600.0; binding: V, end of period 2",match

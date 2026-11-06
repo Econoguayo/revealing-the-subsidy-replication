@@ -1,0 +1,143 @@
+{
+  "run_utc": "2026-11-04T19:53:11+00:00",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "platform": "Linux-6.18.44-fc-v233-x86_64-with-glibc2.39",
+  "code_sha256_16": {
+    "lpvs_core.py": "dee2e768be7ac16e",
+    "c3_selection.py": "da304d8cff39d5c9",
+    "c4_posted_offer.py": "7e53a2180d0f6224"
+  },
+  "inputs_sha256_16": {
+    "results_c3/c3_type_stage.json": "a28f3b741327e5d8",
+    "results_c3/c3_auction.csv": "474c643b75fdf108"
+  },
+  "checks": {
+    "type_stage_max_abs_deviation_vs_saved": 0.0,
+    "max_abs_deviation_vs_c3_auction": 0.0,
+    "decomposition_identity": "holds to 1e-12 for every row"
+  },
+  "assumptions": {
+    "BASE": {
+      "Rstar": 26.0,
+      "kappa": 0.8,
+      "sbar": 10.0,
+      "r_f": 0.05,
+      "Tbar": 20
+    },
+    "I": 20.0,
+    "VBAR": 25.0,
+    "R_C": 0.08,
+    "TYPES": [
+      [
+        24.0,
+        0.1
+      ],
+      [
+        24.0,
+        0.12
+      ],
+      [
+        24.0,
+        0.15
+      ],
+      [
+        24.0,
+        0.2
+      ],
+      [
+        25.0,
+        0.1
+      ],
+      [
+        25.0,
+        0.12
+      ],
+      [
+        25.0,
+        0.15
+      ],
+      [
+        25.0,
+        0.2
+      ],
+      [
+        26.0,
+        0.1
+      ],
+      [
+        26.0,
+        0.12
+      ],
+      [
+        26.0,
+        0.15
+      ],
+      [
+        26.0,
+        0.2
+      ]
+    ],
+    "SHOCKS": {
+      "p05": [
+        [
+          30.0,
+          20.0
+        ],
+        [
+          [
+            0.95,
+            0.05
+          ],
+          [
+            0.3333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      ],
+      "p10": [
+        [
+          30.0,
+          20.0
+        ],
+        [
+          [
+            0.9,
+            0.1
+          ],
+          [
+            0.3333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      ]
+    },
+    "WS": [
+      27.0,
+      30.0,
+      34.0
+    ],
+    "LS": [
+      0.0,
+      -2.0
+    ],
+    "NS": [
+      1,
+      2,
+      3
+    ],
+    "omega": 0.0,
+    "Lam": 0.0,
+    "type_prior": "uniform, independent draws",
+    "posted_offer": "Vbar offered to one sponsor drawn from the type distribution; accepted if V* <= Vbar (C2 rule with n = 1)",
+    "bidding": "each sponsor bids its minimum acceptable cap (threshold bid); weakly dominant under the C2 second-price rule given assumption A6 (payoff at a positive threshold equals the outside option), which holds in the baseline with L = Lam = 0 (working paper, Remark 1); for L = -2 the results describe allocations under threshold bids, without an equilibrium claim"
+  },
+  "random_numbers": "none (exact enumeration and exact tree computation)",
+  "outputs": {
+    "c4_access_rules.csv": "1b6958bdc6e29941",
+    "c4_cap_monotonicity.csv": "9af3e3e760d7b03f",
+    "c4_comparison.csv": "859eeb416a91d5ae",
+    "c4_decomposition.csv": "7f53e1280abaae4f",
+    "c4_sequential.csv": "3253a210ec81a146"
+  }
+}

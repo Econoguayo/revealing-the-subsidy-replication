@@ -1,0 +1,14 @@
+ProjName,Country,board_date,board_fy,in_force_list_fy,ReplenishmentCode,Facility,IFCDisclosure1,MIGADisclosure1,FCS/FCV,registry_fcs,single_country,labelled_fy_fcs,in_force_fcs,any_listed_labelled,any_listed_in_force,labelled_fy_countries,in_force_countries,unlisted_names,n_countries_named
+Humo SL LCY,Tajikistan,2019-08-27,2020,2019,ID18,LCF,https://disclosures.ifc.org/project-detail/SII/42160/humo-sl-lcy,,FCS,1,1,0.0,0.0,0,0,,,,1
+Arvand SL LCY,Tajikistan,2019-08-27,2020,2019,ID18,LCF,https://disclosures.ifc.org/project-detail/SII/42472/arvand-sl-lcy,,FCS,1,1,0.0,0.0,0,0,,,,1
+RMDC,Nepal,2019-07-29,2020,2019,ID18,LCF,https://disclosures.ifc.org/project-detail/SII/41750/nepalpsw-rmdc,,FCS,1,1,0.0,0.0,0,0,,,,1
+DCM NSIA ABS,Cote d'Ivoire,2020-01-20,2020,2019,ID18,LCF,https://disclosures.ifc.org/project-detail/SII/42824/dcm-nsia-abs,,non-FCS,0,1,0.0,1.0,0,1,,Cote d'Ivoire,,1
+Sonatel Telecom,Sierra Leone,2018-06-21,2018,2018,ID18,MGF,,https://www.miga.org/project/sonatel-mobile-telecom-services?pid=4654,non-FCS,0,1,1.0,1.0,1,1,Sierra Leone,Sierra Leone,,1
+Upper Trishuli-1 Nepal,Nepal,2019-03-21,2019,2019,ID18,BFF;MGF,https://disclosures.ifc.org/project-detail/SII/35701/upper-trishuli1,https://www.miga.org/project/upper-trishuli-1-hydropower-project,FCS,1,1,0.0,0.0,0,0,,,,1
+Ghoubet Djibouti Windfarm,Djibouti,2019-11-19,2020,2019,ID18,MGF,,https://www.miga.org/project/ghoubet-djibouti-windfarm-project-0,FCS,1,1,0.0,1.0,0,1,,Djibouti,,1
+ACEP Burkina Faso (Credit and Savings Alliance for Production),Burkina Faso,2020-04-24,2020,2019,ID18,LCF,https://disclosures.ifc.org/project-detail/SII/40839/rff-acep-burkina-sl,,FCS,1,1,1.0,0.0,1,0,Burkina Faso,,,1
+Engee Manufacturing,Nigeria,2020-06-01,2020,2019,ID18,BFF,https://disclosures.ifc.org/project-detail/SII/39713/engee-plant,,FCS,1,1,1.0,0.0,1,0,Nigeria,,,1
+EthioChicken ETB,Ethiopia,2021-03-29,2021,2021,ID19,LCF,https://disclosures.ifc.org/project-detail/SII/44471/ethiochicken-etb,,FCS,1,1,0.0,0.0,0,0,,,,1
+ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,2021,2021,ID19,LCF,https://disclosures.ifc.org/project-detail/SII/44847/bop-abl,,non-FCS,0,1,1.0,1.0,1,1,Lao People's Democratic Republic,Lao People's Democratic Republic,,1
+Tulu Moye,Ethiopia,2021-02-01,2021,2021,ID19,MGF,,https://www.miga.org/project/tulu-moye-geothermal-operations-plc,FCS,1,1,0.0,0.0,0,0,,,,1
+Star Garment Group (SGG Togo),Togo,2023-12-20,2024,2024,ID20,BFF,https://disclosures.ifc.org/project-detail/SII/48019/star-garments-group-togo-cmt-expansion,,FCS,1,1,0.0,0.0,0,0,,,,1

@@ -1,0 +1,72 @@
+\begin{table}[htbp]\centering\small
+\caption{Two-sponsor auction: both sponsors evaluated at the awarded cap (arrears entry 0.10, $W = 30$, costless exit)}\label{tab:c3example}
+\begin{threeparttable}\begin{tabular}{ccccccccc}\toprule
+ & & & & \multicolumn{5}{c}{At the awarded cap}\\\cmidrule(l){5-9}
+$c$ & $\rho$ & Bid $V^*$ & Outcome & $E[S]$ & Target & Exit & Expiry & $U - \omega$\\\midrule
+25 & 0.10 & 0.000 & wins & 0.689 & 0.60 & 0.15 & 0.25 & 1.23\\
+24 & 0.15 & 1.125 & accepts, loses & 0.587 & 0.74 & 0.10 & 0.16 & 0.00\\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} Second-price award between the two sponsors: the sponsor with the lower bid wins, and the awarded cap equals the other bid, 1.125. Both sponsors are evaluated at that cap. $E[S]$ is expected discounted disbursement; Target, Exit and Expiry are the probabilities that the concession ends by reaching $W$, by the sponsor's exit and at $\bar T$; $U - \omega$ is sponsor surplus, with $\omega = 0$. Source: \texttt{c3\_selection.py}, saved type stage \texttt{results\_c3/c3\_type\_stage.json}.\end{tablenotes}
+\end{threeparttable}\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Types in one design: minimum cap, expenditure and operating outcomes at the minimum cap and at the common cap (arrears entry 0.10, $W = 30$, costless exit)}\label{tab:c3types}
+\begin{threeparttable}\begin{tabular}{ccccccccccc}\toprule
+ & & & \multicolumn{4}{c}{At own minimum cap} & \multicolumn{4}{c}{At common cap $\bar V = 25$}\\\cmidrule(lr){4-7}\cmidrule(l){8-11}
+$c$ & $\rho$ & $V^*$ & $E[S]$ & Target & Exit & Expiry & $E[S]$ & Target & Exit & Expiry\\\midrule
+24 & 0.10 & 0.00 & 0.00 & 0.74 & 0.08 & 0.17 & 6.81 & 0.94 & 0.02 & 0.04\\
+24 & 0.12 & 0.00 & 0.00 & 0.74 & 0.08 & 0.17 & 6.81 & 0.94 & 0.03 & 0.04\\
+24 & 0.15 & 1.13 & 0.59 & 0.74 & 0.10 & 0.16 & 6.81 & 0.94 & 0.03 & 0.04\\
+24 & 0.20 & abstains & & & & & & & & \\
+25 & 0.10 & 0.00 & 0.00 & 0.57 & 0.17 & 0.26 & 8.55 & 0.84 & 0.06 & 0.10\\
+25 & 0.12 & 2.99 & 1.83 & 0.57 & 0.20 & 0.22 & 8.55 & 0.84 & 0.06 & 0.10\\
+25 & 0.15 & 14.74 & 6.58 & 0.76 & 0.11 & 0.13 & 8.55 & 0.84 & 0.06 & 0.10\\
+25 & 0.20 & abstains & & & & & & & & \\
+26 & 0.10 & 9.70 & 6.01 & 0.49 & 0.28 & 0.23 & 10.47 & 0.53 & 0.09 & 0.38\\
+26 & 0.12 & 20.87 & 9.82 & 0.53 & 0.15 & 0.32 & 10.47 & 0.53 & 0.10 & 0.37\\
+26 & 0.15 & abstains & & & & & & & & \\
+26 & 0.20 & abstains & & & & & & & & \\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} $E[S]$ is expected discounted disbursement. Target, Exit and Expiry are the probabilities that the concession ends by reaching $W$, by the sponsor's exit and at $\bar T$. Source: \texttt{c3\_selection.py}.\end{tablenotes}
+\end{threeparttable}\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Second-price award: exposure and expenditure (costless exit)}\label{tab:c3auction}
+\resizebox{\textwidth}{!}{\begin{tabular}{cccccccccc}\toprule
+Arrears & $W$ & $n$ & Award & One qualifier & Cap & Own $V^*$ & $E[S]$ at cap & $E[S]$ at own $V^*$ & $E[S]$ per opportunity\\\midrule
+0.05 & 27 & 2 & 0.89 & 0.50 & 14.7 & 1.5 & 2.54 & 0.45 & 2.26\\
+0.05 & 27 & 3 & 0.96 & 0.23 & 8.3 & 0.9 & 1.55 & 0.27 & 1.49\\
+0.05 & 30 & 2 & 0.94 & 0.40 & 11.9 & 0.8 & 2.21 & 0.20 & 2.07\\
+0.05 & 30 & 3 & 0.98 & 0.14 & 5.2 & 0.4 & 1.04 & 0.09 & 1.02\\
+0.05 & 34 & 2 & 0.97 & 0.29 & 8.6 & 0.4 & 1.89 & 0.16 & 1.84\\
+0.05 & 34 & 3 & 1.00 & 0.07 & 2.6 & 0.1 & 0.63 & 0.05 & 0.63\\
+0.10 & 27 & 2 & 0.75 & 0.67 & 19.5 & 4.6 & 5.98 & 2.21 & 4.49\\
+0.10 & 27 & 3 & 0.88 & 0.43 & 15.1 & 3.7 & 4.89 & 1.78 & 4.28\\
+0.10 & 30 & 2 & 0.89 & 0.50 & 17.5 & 4.2 & 6.28 & 2.16 & 5.58\\
+0.10 & 30 & 3 & 0.96 & 0.23 & 11.9 & 2.8 & 4.54 & 1.44 & 4.37\\
+0.10 & 34 & 2 & 0.94 & 0.40 & 14.2 & 2.7 & 5.88 & 1.61 & 5.51\\
+0.10 & 34 & 3 & 0.98 & 0.14 & 8.1 & 1.6 & 3.72 & 0.96 & 3.66\\
+\bottomrule\end{tabular}}
+\par\smallskip\begin{minipage}{\textwidth}\footnotesize\textit{Notes:} $n$ sponsors drawn independently and uniformly from the twelve types; exact expectations over all $12^n$ profiles. Award: probability that at least one sponsor qualifies. One qualifier: probability, given an award, that a single sponsor qualifies and therefore receives $\bar V = 25$. Cap and Own $V^*$: expected awarded cap and expected minimum cap of the winner, given an award. $E[S]$ at cap and at own $V^*$: the winner's expected disbursement under the awarded cap and under its own minimum cap, given an award. $E[S]$ per opportunity counts zero when there is no award. Source: \texttt{c3\_selection.py}.\end{minipage}
+\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Operating outcomes of the winner under the awarded cap and under its own minimum cap (costless exit)}\label{tab:c3oper}
+\begin{threeparttable}\begin{tabular}{ccccccccc}\toprule
+ & & & \multicolumn{3}{c}{Under the awarded cap} & \multicolumn{3}{c}{Under own minimum cap}\\\cmidrule(lr){4-6}\cmidrule(l){7-9}
+Arrears & $W$ & $n$ & Target & Exit & Expiry & Target & Exit & Expiry\\\midrule
+0.05 & 27 & 2 & 0.90 & 0.03 & 0.07 & 0.85 & 0.05 & 0.11\\
+0.05 & 27 & 3 & 0.88 & 0.03 & 0.08 & 0.85 & 0.04 & 0.11\\
+0.05 & 30 & 2 & 0.87 & 0.03 & 0.10 & 0.82 & 0.05 & 0.14\\
+0.05 & 30 & 3 & 0.84 & 0.04 & 0.12 & 0.82 & 0.05 & 0.14\\
+0.05 & 34 & 2 & 0.78 & 0.05 & 0.17 & 0.73 & 0.07 & 0.20\\
+0.05 & 34 & 3 & 0.75 & 0.07 & 0.18 & 0.73 & 0.07 & 0.19\\
+0.10 & 27 & 2 & 0.86 & 0.06 & 0.09 & 0.75 & 0.11 & 0.14\\
+0.10 & 27 & 3 & 0.84 & 0.06 & 0.10 & 0.75 & 0.11 & 0.14\\
+0.10 & 30 & 2 & 0.77 & 0.08 & 0.15 & 0.66 & 0.14 & 0.20\\
+0.10 & 30 & 3 & 0.75 & 0.09 & 0.15 & 0.67 & 0.13 & 0.20\\
+0.10 & 34 & 2 & 0.68 & 0.11 & 0.22 & 0.57 & 0.17 & 0.26\\
+0.10 & 34 & 3 & 0.65 & 0.13 & 0.22 & 0.58 & 0.16 & 0.26\\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} Probabilities, given an award, that the winner's concession ends by reaching $W$ (Target), by the sponsor's exit (Exit) and at $\bar T$ before reaching $W$ (Expiry). Reaching $W$ or $\bar T$ ends the concession and says nothing about service afterward. Source: \texttt{c3\_selection.py}.\end{tablenotes}
+\end{threeparttable}\end{table}

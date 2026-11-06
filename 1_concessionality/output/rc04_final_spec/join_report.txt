@@ -1,0 +1,3 @@
+registry rows (Oct 7 snapshot): 204; matched to rc04 on name and cycle: 204
+fragility field differs between Oct 7 snapshot and Oct 27 export: 0
+Board date differs between snapshots: 0

@@ -1,0 +1,133 @@
+{
+  "run_utc": "2026-11-04T19:45:04+00:00",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "platform": "Linux-6.18.44-fc-v233-x86_64-with-glibc2.39",
+  "code_sha256_16": {
+    "lpvs_core.py": "dee2e768be7ac16e",
+    "c3_selection.py": "da304d8cff39d5c9"
+  },
+  "assumptions": {
+    "BASE": {
+      "Rstar": 26.0,
+      "kappa": 0.8,
+      "sbar": 10.0,
+      "r_f": 0.05,
+      "Tbar": 20
+    },
+    "I": 20.0,
+    "VBAR": 25.0,
+    "R_C": 0.08,
+    "TYPES": [
+      [
+        24.0,
+        0.1
+      ],
+      [
+        24.0,
+        0.12
+      ],
+      [
+        24.0,
+        0.15
+      ],
+      [
+        24.0,
+        0.2
+      ],
+      [
+        25.0,
+        0.1
+      ],
+      [
+        25.0,
+        0.12
+      ],
+      [
+        25.0,
+        0.15
+      ],
+      [
+        25.0,
+        0.2
+      ],
+      [
+        26.0,
+        0.1
+      ],
+      [
+        26.0,
+        0.12
+      ],
+      [
+        26.0,
+        0.15
+      ],
+      [
+        26.0,
+        0.2
+      ]
+    ],
+    "SHOCKS": {
+      "p05": [
+        [
+          30.0,
+          20.0
+        ],
+        [
+          [
+            0.95,
+            0.05
+          ],
+          [
+            0.3333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      ],
+      "p10": [
+        [
+          30.0,
+          20.0
+        ],
+        [
+          [
+            0.9,
+            0.1
+          ],
+          [
+            0.3333333333333333,
+            0.6666666666666666
+          ]
+        ]
+      ]
+    },
+    "WS": [
+      27.0,
+      30.0,
+      34.0
+    ],
+    "LS": [
+      0.0,
+      -2.0
+    ],
+    "NS": [
+      2,
+      3
+    ],
+    "TOL_ES": 0.01,
+    "Lam": 0.0,
+    "omega": 0.0,
+    "type_prior": "uniform, independent draws",
+    "bidding": "each sponsor bids its minimum acceptable cap (threshold bid); weakly dominant under the C2 second-price rule given assumption A6 (payoff at a positive threshold equals the outside option), which holds in the baseline with L = Lam = 0 (working paper, Remark 1); for L = -2 the results describe allocations under threshold bids, without an equilibrium claim"
+  },
+  "random_numbers": "none (exact enumeration and exact tree computation)",
+  "outputs": {
+    "c3_types.csv": "540a4b03f9116702",
+    "c3_design_summary.csv": "c71b736fe814be24",
+    "c3_auction.csv": "474c643b75fdf108",
+    "c3_higher_cost_decomposition.csv": "fe889ba31d64c45c",
+    "c3_exit_violation_dates.csv": "1d9b3d01a8437677",
+    "c3_exit_ordering.csv": "b9e77d5a3912f721"
+  }
+}

@@ -1,0 +1,22 @@
+\begin{table}[htbp]\centering\small
+\caption{Minimum acceptable cap $V^*$ by sponsor type, compensation target and shock process (baseline: costless exit)}\label{tab:c1B}
+\begin{threeparttable}\begin{tabular}{llcccccccc}\toprule
+ & & \multicolumn{4}{c}{Arrears entry 5 percent a year} & \multicolumn{4}{c}{Arrears entry 10 percent a year}\\\cmidrule(lr){3-6}\cmidrule(l){7-10}
+$c$ & $\rho$ & $W{=}20$ & 27 & 30 & 34 & $W{=}20$ & 27 & 30 & 34\\\midrule
+24 & 0.10 & -- & 0 & 0 & 0 & -- & 0 & 0 & 0\\
+24 & 0.12 & -- & 0 & 0 & 0 & -- & 0 & 0 & 0\\
+24 & 0.15 & -- & 0 & 0 & 0 & -- & 8.4 & 1.1 & 0\\
+24 & 0.20 & -- & -- & 13.4 & 0 & -- & -- & -- & 11.4\\
+\addlinespace
+25 & 0.10 & -- & 0 & 0 & 0 & -- & 1.9 & 0 & 0\\
+25 & 0.12 & -- & 0 & 0 & 0 & -- & 8.4 & 3.0 & 0\\
+25 & 0.15 & -- & 11.4 & 0 & 0 & -- & -- & 14.7 & 7.2\\
+25 & 0.20 & -- & -- & -- & -- & -- & -- & -- & --\\
+\addlinespace
+26 & 0.10 & -- & 0 & 0 & 0 & -- & 14.8 & 9.7 & 6.5\\
+26 & 0.12 & -- & 8.5 & 1.8 & 0 & -- & -- & 20.9 & 13.7\\
+26 & 0.15 & -- & -- & -- & 10.8 & -- & -- & -- & --\\
+26 & 0.20 & -- & -- & -- & -- & -- & -- & -- & --\\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} Entries: 0, the sponsor participates without support; a number, the interior minimum acceptable cap $V^*$, in the same units as $I = 20$; --, the participation set is empty for every cap. $r_c = 0.08$, $R = (30, 20)$, $R^* = 26$, $\kappa = 0.8$, $\bar s = 10$, $r_f = 0.05$, $\bar T = 20$, arrears persistence $2/3$, $\Lambda_W = \Lambda_{\bar T} = 0$, exit value $L = 0$, $\omega = 0$. The column $W = 20$ is the manuscript's $W = I$. Every interior case passed the grid diagnostic before the threshold search. Source: \texttt{run\_tractability.py}, exercise B.\end{tablenotes}
+\end{threeparttable}\end{table}

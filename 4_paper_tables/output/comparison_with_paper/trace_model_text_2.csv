@@ -1,0 +1,10 @@
+id,location,claim,source,computed,verdict
+X-1.125,Intro and 6.2,worked example value 1.125,Table 5 (reconciled with package),present in Table 5,match
+X-0.689,Intro and 6.2,worked example value 0.689,Table 5 (reconciled with package),present in Table 5,match
+X-0.587,Intro and 6.2,worked example value 0.587,Table 5 (reconciled with package),present in Table 5,match
+X-0.60,Intro and 6.2,worked example value 0.60,Table 5 (reconciled with package),present in Table 5,match
+X-0.15,Intro and 6.2,worked example value 0.15,Table 5 (reconciled with package),present in Table 5,match
+X-0.74,Intro and 6.2,worked example value 0.74,Table 5 (reconciled with package),present in Table 5,match
+X-0.10,Intro and 6.2,worked example value 0.10,Table 5 (reconciled with package),present in Table 5,match
+F3,6.4,"W = 30, p10, n = 2: award 0.889; E[S] 7.44 vs 5.58; target 0.708 vs 0.687; exit 0.050 vs 0.070","c4_comparison, c4_sequential",0.889; 7.44; 5.58; 0.708; 0.687; 0.050; 0.070,match
+C1,App. C,"n = 2: winner-not-lowest share equals strictly-lower-V* share; n = 3: no larger, smaller in five of six",c3_auction p_winner_min_ES_at_cap; c3_higher_cost_decomposition p_strictly_lower_Vstar,"n=2 equal: True; n=3 no larger: True, smaller in 5 of 6",match

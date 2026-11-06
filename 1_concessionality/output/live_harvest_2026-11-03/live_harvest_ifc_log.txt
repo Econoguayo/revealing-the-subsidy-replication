@@ -1,0 +1,10 @@
+START 08:54:25 targets=152
+  20/152 fetched=20 cached=0 err=0
+  ERR 25 3B Hotels <urlopen error [Errno 104] Connection reset by peer>
+  40/152 fetched=39 cached=0 err=1
+  60/152 fetched=58 cached=1 err=1
+  80/152 fetched=78 cached=1 err=1
+  100/152 fetched=98 cached=1 err=1
+  120/152 fetched=116 cached=3 err=1
+  140/152 fetched=135 cached=4 err=1
+DONE fetched=147 cached=4 err=1 total=152

@@ -1,0 +1,94 @@
+\begin{table}[htbp]\centering\small
+\caption{Smallest compensation target, as a multiple of $I$, at which the reference path meets the outside option}\label{tab:A}
+\begin{threeparttable}\begin{tabular}{llcccc}\toprule
+ & & \multicolumn{4}{c}{Contractual rate $r_c$}\\\cmidrule(l){3-6}
+Operating cost $c$ & Discount rate $\rho$ & 0.06 & 0.08 & 0.10 & 0.12\\\midrule
+24 & 0.10 & 1.10 & 1.05 & 1.00 & 0.96\\
+24 & 0.12 & 1.16 & 1.10 & 1.05 & 1.00\\
+24 & 0.15 & 1.26 & 1.19 & 1.13 & 1.07\\
+24 & 0.20 & 1.48 & 1.39 & 1.31 & 1.24\\
+\addlinespace
+25 & 0.10 & 1.12 & 1.06 & 1.00 & 0.95\\
+25 & 0.12 & 1.19 & 1.12 & 1.06 & 1.00\\
+25 & 0.15 & 1.32 & 1.24 & 1.16 & 1.09\\
+25 & 0.20 & 1.68 & 1.54 & 1.42 & 1.32\\
+\addlinespace
+26 & 0.10 & 1.15 & 1.07 & 1.00 & 0.94\\
+26 & 0.12 & 1.25 & 1.16 & 1.07 & 1.00\\
+26 & 0.15 & 1.46 & 1.33 & 1.22 & 1.13\\
+26 & 0.20 & n.a. & n.a. & n.a. & n.a.\\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} Reference path: normal payment in every period, revenue 30, no support paid. $I = 20$, $\bar T = 20$, $\Lambda_W = \Lambda_{\bar T} = 0$, $\omega = 0$. n.a.: the reference payoff is negative even if the concession runs to $\bar T$, so no target suffices. Where $\rho = r_c$ the multiple is 1.00, and where $\rho > r_c$ it exceeds 1, as Corollary~\ref{cor:WI} requires. Source: \texttt{run\_tractability.py}, exercise A.\end{tablenotes}
+\end{threeparttable}\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Minimum acceptable cap $V^*$ by sponsor type, compensation target and shock process (baseline: costless exit)}\label{tab:B}
+\begin{threeparttable}\begin{tabular}{llcccccccc}\toprule
+ & & \multicolumn{4}{c}{Arrears entry 5 percent a year} & \multicolumn{4}{c}{Arrears entry 10 percent a year}\\\cmidrule(lr){3-6}\cmidrule(l){7-10}
+$c$ & $\rho$ & $W{=}20$ & 27 & 30 & 34 & $W{=}20$ & 27 & 30 & 34\\\midrule
+24 & 0.10 & -- & 0 & 0 & 0 & -- & 0 & 0 & 0\\
+24 & 0.12 & -- & 0 & 0 & 0 & -- & 0 & 0 & 0\\
+24 & 0.15 & -- & 0 & 0 & 0 & -- & 8.4 & 1.1 & 0\\
+24 & 0.20 & -- & -- & 13.4 & 0 & -- & -- & -- & 11.4\\
+\addlinespace
+25 & 0.10 & -- & 0 & 0 & 0 & -- & 1.9 & 0 & 0\\
+25 & 0.12 & -- & 0 & 0 & 0 & -- & 8.4 & 3.0 & 0\\
+25 & 0.15 & -- & 11.4 & 0 & 0 & -- & -- & 14.7 & 7.2\\
+25 & 0.20 & -- & -- & -- & -- & -- & -- & -- & --\\
+\addlinespace
+26 & 0.10 & -- & 0 & 0 & 0 & -- & 14.8 & 9.7 & 6.5\\
+26 & 0.12 & -- & 8.5 & 1.8 & 0 & -- & -- & 20.9 & 13.7\\
+26 & 0.15 & -- & -- & -- & 10.8 & -- & -- & -- & --\\
+26 & 0.20 & -- & -- & -- & -- & -- & -- & -- & --\\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} Entries: 0, the sponsor participates without support; a number, the interior minimum acceptable cap $V^*$, in the same units as $I = 20$; --, the participation set is empty for every cap. $r_c = 0.08$, $R = (30, 20)$, $R^* = 26$, $\kappa = 0.8$, $\bar s = 10$, $r_f = 0.05$, $\bar T = 20$, arrears persistence $2/3$, $\Lambda_W = \Lambda_{\bar T} = 0$, exit value $L = 0$, $\omega = 0$. The column $W = 20$ is the manuscript's $W = I$. Every interior case passed the grid diagnostic before the threshold search. Source: \texttt{run\_tractability.py}, exercise B.\end{tablenotes}
+\end{threeparttable}\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Exposure, expenditure and stopping outcomes at the minimum acceptable cap (interior cases, baseline: costless exit)}\label{tab:C}
+\begin{threeparttable}\begin{tabular}{lcccccccccc}\toprule
+Arrears & $W$ & $c$ & $\rho$ & $V^*$ & $E[S_{T^*}]$ & Target & Exit & Expiry & Periods & Cap used\\\midrule
+5\% & 27 & 25 & 0.15 & 11.4 & 2.9 & 0.90 & 0.03 & 0.06 & 9.8 & 0.15\\
+5\% & 27 & 26 & 0.12 & 8.5 & 2.9 & 0.76 & 0.11 & 0.13 & 13.2 & 0.22\\
+5\% & 30 & 24 & 0.20 & 13.4 & 2.8 & 0.94 & 0.02 & 0.03 & 8.4 & 0.10\\
+5\% & 30 & 26 & 0.12 & 1.8 & 0.8 & 0.64 & 0.13 & 0.23 & 14.8 & 0.46\\
+5\% & 34 & 26 & 0.15 & 10.8 & 4.4 & 0.62 & 0.12 & 0.26 & 17.1 & 0.24\\
+10\% & 27 & 24 & 0.15 & 8.4 & 3.4 & 0.87 & 0.05 & 0.08 & 9.1 & 0.29\\
+10\% & 27 & 25 & 0.10 & 1.9 & 1.1 & 0.61 & 0.19 & 0.19 & 12.4 & 0.57\\
+10\% & 27 & 25 & 0.12 & 8.4 & 4.1 & 0.73 & 0.13 & 0.14 & 11.7 & 0.34\\
+10\% & 27 & 26 & 0.10 & 14.8 & 7.6 & 0.63 & 0.21 & 0.16 & 14.9 & 0.32\\
+10\% & 30 & 24 & 0.15 & 1.1 & 0.6 & 0.74 & 0.10 & 0.16 & 11.4 & 0.52\\
+10\% & 30 & 25 & 0.12 & 3.0 & 1.8 & 0.57 & 0.20 & 0.22 & 13.5 & 0.61\\
+10\% & 30 & 25 & 0.15 & 14.7 & 6.6 & 0.76 & 0.11 & 0.13 & 12.7 & 0.25\\
+10\% & 30 & 26 & 0.10 & 9.7 & 6.0 & 0.49 & 0.28 & 0.23 & 16.0 & 0.48\\
+10\% & 30 & 26 & 0.12 & 20.9 & 9.8 & 0.53 & 0.15 & 0.32 & 16.4 & 0.18\\
+10\% & 34 & 24 & 0.20 & 11.4 & 5.1 & 0.81 & 0.06 & 0.12 & 11.6 & 0.30\\
+10\% & 34 & 25 & 0.15 & 7.2 & 4.4 & 0.58 & 0.18 & 0.24 & 15.0 & 0.48\\
+10\% & 34 & 26 & 0.10 & 6.5 & 4.8 & 0.34 & 0.35 & 0.31 & 17.6 & 0.64\\
+10\% & 34 & 26 & 0.12 & 13.7 & 8.6 & 0.35 & 0.27 & 0.38 & 17.8 & 0.37\\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} $V^*$ is the committed exposure if the sponsor receives its own minimum cap. $E[S_{T^*}]$ is expected discounted disbursement, already discounted at $r_f$. Target, Exit and Expiry are the probabilities that the concession ends by reaching $W$, by the sponsor's exit, and at $\bar T$; Periods is the expected number of operating periods under the sponsor; Cap used is the probability that disbursement reaches $V^*$. Reaching $W$ or $\bar T$ ends the concession and says nothing about service afterward. Source: \texttt{run\_tractability.py}, exercise B, baseline.\end{tablenotes}
+\end{threeparttable}\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Minimum acceptable cap $V^*$ by sponsor type, compensation target and shock process (sensitivity: termination penalty, $L = -2$)}\label{tab:B0}
+\begin{threeparttable}\begin{tabular}{llcccccccc}\toprule
+ & & \multicolumn{4}{c}{Arrears entry 5 percent a year} & \multicolumn{4}{c}{Arrears entry 10 percent a year}\\\cmidrule(lr){3-6}\cmidrule(l){7-10}
+$c$ & $\rho$ & $W{=}20$ & 27 & 30 & 34 & $W{=}20$ & 27 & 30 & 34\\\midrule
+24 & 0.10 & -- & 0 & 0 & 0 & -- & 0 & 0 & 0\\
+24 & 0.12 & -- & 0 & 0 & 0 & -- & 0 & 0 & 0\\
+24 & 0.15 & -- & 0 & 0 & 0 & -- & 8.4 & 1.1 & 0\\
+24 & 0.20 & -- & -- & 13.4 & 0 & -- & -- & -- & 11.4\\
+\addlinespace
+25 & 0.10 & -- & 0 & 0 & 0 & -- & 2.0 & 0 & 0\\
+25 & 0.12 & -- & 0 & 0 & 0 & -- & 8.6 & 3.1 & 0\\
+25 & 0.15 & -- & 11.5 & 0 & 0 & -- & -- & 14.9 & 7.3\\
+25 & 0.20 & -- & -- & -- & -- & -- & -- & -- & --\\
+\addlinespace
+26 & 0.10 & -- & 0 & 0 & 0 & -- & 15.2 & 10.0 & 6.8\\
+26 & 0.12 & -- & 8.7 & 1.9 & 0 & -- & -- & 21.3 & 14.0\\
+26 & 0.15 & -- & -- & -- & 11.0 & -- & -- & -- & --\\
+26 & 0.20 & -- & -- & -- & -- & -- & -- & -- & --\\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize\item \textit{Notes:} As in Table~\ref{tab:B}, except that exit carries a termination penalty of 2 ($L = -2$). Source: \texttt{run\_tractability.py}, exercise B, run with \texttt{L\_EXIT=-2}.\end{tablenotes}
+\end{threeparttable}\end{table}

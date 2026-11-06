@@ -1,0 +1,55 @@
+\begin{table}[htbp]\centering\small
+\caption{Sponsor pool by design: participation categories and expected disbursement at the common cap by operating cost}\label{tab:c3design}
+\resizebox{\textwidth}{!}{\begin{tabular}{ccccccccccc}\toprule
+ & & \multicolumn{3}{c}{Number of types} & \multicolumn{3}{c}{$E[S]$ at $\bar V$ by operating cost} & \multicolumn{3}{c}{Pairs of types at $\bar V$}\\\cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(l){9-11}
+Arrears entry & $W$ & No support & Positive $V^*$ & Abstain & $c = 24$ & $c = 25$ & $c = 26$ & Pairs & Exit order holds & $E[S]$ ordered\\\midrule
+0.05 & 27 & 6 & 2 & 4 & 3.12 & 4.00 & 5.17 & 21 & 0 & 21\\
+0.05 & 30 & 7 & 2 & 3 & 3.53 & 4.42 & 5.53 & 26 & 0 & 26\\
+0.05 & 34 & 9 & 1 & 2 & 3.98 & 5.11 & 6.17 & 33 & 0 & 33\\
+0.10 & 27 & 2 & 4 & 6 & 6.07 & 7.75 & 9.86 & 11 & 0 & 11\\
+0.10 & 30 & 3 & 5 & 4 & 6.81 & 8.55 & 10.47 & 21 & 0 & 21\\
+0.10 & 34 & 5 & 4 & 3 & 7.68 & 9.70 & 11.27 & 26 & 0 & 26\\
+\bottomrule\end{tabular}}
+\par\smallskip\begin{minipage}{\textwidth}\footnotesize\textit{Notes:} Twelve types, $c \in \{24, 25, 26\}$ by $\rho \in \{0.10, 0.12, 0.15, 0.20\}$. No support: the sponsor participates at a cap of zero. Abstain: no cap up to $\bar V = 25$ meets the outside option. $E[S]$ at $\bar V$: expected discounted disbursement at the common cap, averaged over the participating types with that operating cost; across discount rates within a cost group it varies by less than 0.0003 in every design. Pairs: pairs of participating types with different operating costs. Exit order holds: pairs for which, on every one of the $2^{20}$ revenue histories, the higher-cost type does not exit before the lower-cost type's concession ends, the condition of Proposition~\ref{prop:c3}. $E[S]$ ordered: pairs in which the higher-cost type's expected disbursement at $\bar V$ is at least that of the lower-cost type. Baseline: costless exit. Source: \texttt{c3\_selection.py}.\end{minipage}
+\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Selection at the awarded cap under the second-price award (costless exit)}\label{tab:c3select}
+\resizebox{\textwidth}{!}{\begin{tabular}{ccccccccccc}\toprule
+ & & & \multicolumn{3}{c}{Share} & \multicolumn{5}{c}{Restricted comparison at the awarded cap}\\\cmidrule(lr){4-6}\cmidrule(l){7-11}
+Arrears & $W$ & $n$ & Contested & Cap zero & Restricted & Strictly lowest & Tied & Not lowest & Excess & Exit order holds\\\midrule
+0.05 & 27 & 2 & 0.50 & 0.56 & 0.31 & 0.80 & 0.00 & 0.20 & 0.16 & 0.00\\
+0.05 & 27 & 3 & 0.77 & 0.67 & 0.23 & 0.82 & 0.00 & 0.18 & 0.14 & 0.00\\
+0.05 & 30 & 2 & 0.60 & 0.60 & 0.27 & 0.55 & 0.00 & 0.45 & 0.46 & 0.00\\
+0.05 & 30 & 3 & 0.86 & 0.74 & 0.18 & 0.61 & 0.00 & 0.39 & 0.40 & 0.00\\
+0.05 & 34 & 2 & 0.71 & 0.81 & 0.14 & 1.00 & 0.00 & 0.00 & 0.00 & 0.00\\
+0.05 & 34 & 3 & 0.93 & 0.91 & 0.07 & 1.00 & 0.00 & 0.00 & 0.00 & 0.00\\
+0.10 & 27 & 2 & 0.33 & 0.11 & 0.61 & 0.91 & 0.00 & 0.09 & 0.06 & 0.00\\
+0.10 & 27 & 3 & 0.57 & 0.15 & 0.57 & 0.90 & 0.00 & 0.10 & 0.07 & 0.00\\
+0.10 & 30 & 2 & 0.50 & 0.14 & 0.59 & 0.89 & 0.00 & 0.11 & 0.09 & 0.00\\
+0.10 & 30 & 3 & 0.77 & 0.21 & 0.53 & 0.88 & 0.00 & 0.12 & 0.08 & 0.00\\
+0.10 & 34 & 2 & 0.60 & 0.31 & 0.49 & 0.75 & 0.00 & 0.25 & 0.33 & 0.00\\
+0.10 & 34 & 3 & 0.86 & 0.45 & 0.40 & 0.76 & 0.00 & 0.24 & 0.32 & 0.00\\
+\bottomrule\end{tabular}}
+\par\smallskip\begin{minipage}{\textwidth}\footnotesize\textit{Notes:} Contested: share of awards in which at least two sponsors qualify, so that the winner and the runner-up both accept the awarded cap. Cap zero: share of contested awards with an awarded cap of zero, in which no sponsor would receive support; these awards remain in Table~\ref{tab:c3auction}. Restricted: share of contested awards with a positive awarded cap in which the sponsors that would accept that cap do not all have the same operating cost. The remaining columns refer to the restricted awards, with every sponsor that would accept the cap evaluated at that cap. Strictly lowest: the winner's expected disbursement is below that of every other such sponsor by more than 0.01. Tied: it lies within 0.01 of the lowest among the other sponsors. Not lowest: it exceeds the lowest among the other sponsors by more than 0.01. Excess: mean amount by which the winner's expected disbursement exceeds the lowest among all such sponsors. Exit order holds: share of restricted awards in which the condition of Proposition~\ref{prop:c3} holds on every revenue history for every pair of such sponsors with different operating costs. Source: \texttt{c3\_selection.py}.\end{minipage}
+\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Selection evaluated at the common cap $\bar V$ in contested awards (costless exit)}\label{tab:c3selectvbar}
+\resizebox{\textwidth}{!}{\begin{tabular}{ccccccccccc}\toprule
+Arrears & $W$ & $n$ & Strictly lowest & Tied & Not lowest & Excess & Higher cost & Strictly lower $V^*$ & Different costs & Exit order holds\\\midrule
+0.05 & 27 & 2 & 0.42 & 0.34 & 0.23 & 0.29 & 0.23 & 0.06 & 0.66 & 0.00\\
+0.05 & 27 & 3 & 0.36 & 0.37 & 0.28 & 0.34 & 0.28 & 0.05 & 0.75 & 0.00\\
+0.05 & 30 & 2 & 0.33 & 0.36 & 0.31 & 0.38 & 0.31 & 0.12 & 0.64 & 0.00\\
+0.05 & 30 & 3 & 0.24 & 0.38 & 0.37 & 0.45 & 0.37 & 0.12 & 0.75 & 0.00\\
+0.05 & 34 & 2 & 0.40 & 0.34 & 0.26 & 0.37 & 0.26 & 0.00 & 0.66 & 0.00\\
+0.05 & 34 & 3 & 0.28 & 0.37 & 0.35 & 0.51 & 0.35 & 0.00 & 0.80 & 0.00\\
+0.10 & 27 & 2 & 0.56 & 0.39 & 0.06 & 0.09 & 0.06 & 0.06 & 0.61 & 0.00\\
+0.10 & 27 & 3 & 0.50 & 0.44 & 0.06 & 0.11 & 0.06 & 0.06 & 0.67 & 0.00\\
+0.10 & 30 & 2 & 0.56 & 0.34 & 0.09 & 0.17 & 0.09 & 0.06 & 0.66 & 0.00\\
+0.10 & 30 & 3 & 0.49 & 0.39 & 0.12 & 0.21 & 0.12 & 0.07 & 0.75 & 0.00\\
+0.10 & 34 & 2 & 0.44 & 0.36 & 0.20 & 0.43 & 0.20 & 0.12 & 0.64 & 0.00\\
+0.10 & 34 & 3 & 0.34 & 0.41 & 0.24 & 0.52 & 0.24 & 0.13 & 0.75 & 0.00\\
+\bottomrule\end{tabular}}
+\par\smallskip\begin{minipage}{\textwidth}\footnotesize\textit{Notes:} All contested awards; every qualifying sponsor is evaluated at $\bar V = 25$. Strictly lowest, Tied, Not lowest and Excess are defined as in Table~\ref{tab:c3select}, with all qualifying sponsors as the comparison set. Different costs: share of contested awards in which the qualifying sponsors do not all have the same operating cost. Exit order holds: share of those awards in which the condition of Proposition~\ref{prop:c3} holds on every revenue history for every pair of qualifying sponsors with different operating costs. Higher cost: share of contested awards won by a sponsor whose operating cost exceeds the lowest among the qualifiers. Strictly lower $V^*$: share won by such a sponsor with a minimum cap strictly below that of every lower-cost qualifier; the remainder of Higher cost consists of awards decided by a tie at the lowest bid. Source: \texttt{c3\_selection.py}.\end{minipage}
+\end{table}

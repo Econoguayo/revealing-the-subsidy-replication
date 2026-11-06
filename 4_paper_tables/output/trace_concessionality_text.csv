@@ -1,0 +1,29 @@
+id,location,claim,computed,verdict
+E1,Sec. 2; App. E,204 Board-approved transactions on the published list,204,match
+E2,App. E,IFC disclosure links listed for 152 transactions,152,match
+E3,App. E,MIGA disclosure links listed for 34 transactions,34,match
+E4,App. E,pages retrieved for 151 IFC transactions,151,match
+E5,App. E,pages retrieved for all MIGA transactions,34 of 34,match
+E6,App. E,three transactions list both links,3,match
+E7,App. E,182 unique transactions with at least one retrieved page,182,match
+E8,Sec. 2; App. E,119 transactions disclose an estimate,119,match
+E9,App. E,106 IFC and 13 MIGA estimates,"106 IFC, 13 MIGA",match
+E10,App. E,"105 estimates against total project cost (92 IFC, 13 MIGA)","105 (92 IFC, 13 MIGA)",match
+E11,Sec. 2; App. E; Table 1,92 IFC transactions report estimates as shares of total project cost,92,match
+E12,App. E,14 estimates not expressed against total project cost,14,match
+E13,App. E,two state no denominator,2,match
+E14,App. E,"two largest estimates 60 and 51 percent, both Local Currency Facility",60 (LCF); 51 (LCF),match
+E15,Sec. 2; App. E,eleven of the thirteen MIGA estimates are upper bounds,11 of 13,match
+E16,App. E,MIGA guarantee periods from six to twenty years,6 to 20 (13 of 13 stated),match
+E17,App. E,"one disclosure provides a range (recorded by lower bound, upper bound and midpoint)","3 estimates carry a range; 2 of them inside square brackets (CRRH II, Robust Nigeria); unbracketed: Bank of Bhutan",wording
+E18,Sec. 2; App. E,90th/10th percentile ratio 9.1 (a factor of nine),9.1,match
+E19,App. E,"retrieved pages: 58 percent of FCS transactions state an estimate, 70 percent of others",58 and 70,match
+E20,App. E,full registry: 56 and 60 percent,56 and 60,match
+R1,Table 1 note,11 transactions belong to the four sponsors that appear more than once,"11 transactions, 4 sponsors",match
+R2,Sec. 2,facility alone explains 32 percent of the variation,32,match
+R3,Sec. 2,adding industry raises this to 41 percent,41,match
+R4,Sec. 2,full specification reduces leave-one-out RMSE by 15.6 percent,15.6,match
+R5,Sec. 2,or 15.4 percent when all transactions of a sponsor are held out together,15.4,match
+R6,Table 1 note,reduction in mean squared error for the full conditioning set 28.8 percent,28.8,match
+R7,Table 1 note,final row: 79 transactions report a project cost,79,match
+R8,Table 1 note,benchmark for those 79 observations is 2.57 rather than 2.47,2.57 rather than 2.47,match

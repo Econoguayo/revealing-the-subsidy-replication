@@ -1,0 +1,5 @@
+Disclosure rate, conditional on at least one disclosure page being retrieved
+group       figure   pages    rate  registry  reg rate
+FCS             39      67     58%        70       56%
+non-FCS         80     115     70%       134       60%
+All            119     182     65%       204       58%

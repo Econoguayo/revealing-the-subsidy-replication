@@ -1,0 +1,23 @@
+match   tab:c1A
+match   tab:c1B
+match   tab:c1B0
+match   tab:c1C
+match   tab:c3award
+match   tab:c3example
+match   tab:c3oper
+match   tab:c3pool
+match   tab:c3select_awarded
+match   tab:c3select_common
+match   tab:c3types
+match   tab:c4access
+match   tab:c4access_pen
+match   tab:c4compact
+match   tab:c4cond
+match   tab:c4cond_pen
+match   tab:c4decomp
+match   tab:c4decomp_pen
+match   tab:c4monotone
+match   tab:c4peropp
+match   tab:c4peropp_pen
+match   tab:concessionality-dispersion  (paper: tab:concessionality)
+22 of 22 generated tables match the paper

@@ -1,0 +1,2 @@
+Comparison of the generated tables and traced statements with the LaTeX source of the working paper of November 4, 2026
+(MD5 7b4aa5abc8d903c179967a46396570bf), written by run_all.py --paper on November 5, 2026.

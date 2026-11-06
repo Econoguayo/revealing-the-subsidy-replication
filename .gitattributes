@@ -1,0 +1,2 @@
+# Store every file byte for byte, so that the SHA-256 checksums in MANIFEST.sha256 hold on every platform.
+* -text

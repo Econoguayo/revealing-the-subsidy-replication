@@ -1,0 +1,41 @@
+\begin{table}[htbp]
+\centering
+\caption{Predictability of Disclosed Concessionality from Recorded Project Characteristics}
+\label{tab:concessionality-dispersion}
+\small
+\textit{Panel A. Variation accounted for by recorded characteristics}\\[2pt]
+\begin{tabular}{lccccccc}
+\toprule
+ & & & & Residual & \multicolumn{2}{c}{Prediction error} & Reduction \\
+\cmidrule(lr){6-7}
+Conditioning set & $n$ & $R^2$ & Adj.\ $R^2$ & factor & Transaction & Sponsor & (percent) \\
+\midrule
+None (unconditional) & 92 & 0.000 & 0.000 & 2.46 & 2.47 & 2.47 & 0.0 \\
+Facility & 92 & 0.318 & 0.303 & 2.12 & 2.15 & 2.15 & 15.6 \\
+Facility, industry & 92 & 0.409 & 0.375 & 2.04 & 2.10 & 2.10 & 18.3 \\
+Facility, industry, cycle & 92 & 0.410 & 0.361 & 2.05 & 2.13 & 2.13 & 16.6 \\
+Facility, industry, cycle, fragility & 92 & 0.413 & 0.356 & 2.06 & 2.15 & 2.15 & 15.6 \\
+Adding log project cost & 79 & 0.555 & 0.497 & 1.95 & 2.08 & 2.09 & 22.3 \\
+\bottomrule
+\end{tabular}
+
+\vspace{8pt}
+\textit{Panel B. Robustness}\\[2pt]
+\begin{tabular}{lcccccc}
+\toprule
+Sample & $n$ & p90/p10 & Adj.\ $R^2$ & Prediction & Unconditional & Reduction \\
+\midrule
+All transactions & 92 & 9.1 & 0.361 & 2.13 & 2.47 & 16.6 \\
+Blended Finance Facility only & 40 & 6.5 & -0.051 & 2.37 & 2.15 & -12.4 \\
+Local Currency Facility only & 46 & 5.9 & 0.233 & 2.00 & 2.14 & 8.8 \\
+Fragile and conflict-affected only & 29 & 6.3 & 0.261 & 2.25 & 2.38 & 6.6 \\
+Excluding estimates above 30 percent & 88 & 8.2 & 0.345 & 2.01 & 2.30 & 15.9 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Notes:} The dependent variable is the natural logarithm of the concessionality estimate disclosed at approval, expressed as a share of total project cost, for the 92 IFC transactions in the IDA18 through IDA20 Private Sector Window registry whose disclosure states that denominator. The residual factor is the exponentiated residual standard deviation of the fitted regression. The prediction-error columns report a multiplicative prediction-error measure, the exponentiated root mean squared cross-validated prediction error, $\exp\!\big(\sqrt{n^{-1}\sum_i (y_i-\hat{y}_{-i})^2}\big)$, where $\hat{y}_{-i}$ omits the held-out observation from estimation; a value of 2.0 indicates prediction to within a factor of two. The transaction column holds out one transaction at a time and the sponsor column holds out all transactions of the same sponsor, which affects the 11 transactions belonging to the four sponsors that appear more than once. The reduction column reports the proportional fall in the root mean squared error relative to the unconditional benchmark, measured in log points; for the full conditioning set the corresponding reduction in mean squared error is 28.8 percent. In Panel B the benchmark is recomputed within each subsample.
+\item Industry is the IFC industry group, cycle is the IDA replenishment, and fragility follows the registry's designation. The disclosures report neither the reference price and the concessional price separately nor the inputs to the pricing model, so the exercise measures the predictability of the disclosed estimate from recorded characteristics. Residual variation is not evidence about information held by sponsors and unavailable to IFC.
+\item \textit{Source:} IFC project disclosures matched to the IDA PSW project registry. Author's compilation.
+\end{tablenotes}
+\end{table}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the working paper and the package."
+title: "Replication package for: Revealing the Subsidy: Competitive Allocation of Concessional Finance in Fragile States"
+type: software
+version: "1.0.0"
+date-released: "2026-11-05"
+authors:
+  - family-names: "González"
+    given-names: "Álvaro S."
+    affiliation: "Center for Global Development"
+    email: "agonzalez@cgdev.org"
+# TO BE COMPLETED AFTER DEPOSIT: doi (Zenodo), repository-code (GitHub URL), license (see LICENSE.md)
+preferred-citation:
+  type: report
+  title: "Revealing the Subsidy: Competitive Allocation of Concessional Finance in Fragile States"
+  authors:
+    - family-names: "González"
+      given-names: "Álvaro S."
+  institution:
+    name: "Center for Global Development"
+    city: "Washington, DC"
+  collection-title: "CGD Working Paper"
+  # TO BE COMPLETED BY CGD COMMUNICATIONS: number, month, URL
+  year: 2026

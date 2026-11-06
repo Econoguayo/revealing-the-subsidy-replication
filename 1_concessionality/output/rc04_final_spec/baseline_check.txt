@@ -1,0 +1,9 @@
+Registry coding against the published Table 1 and Appendix E figures
+PASS
+                                    row   n            r2        adj_r2  resid_factor    pe_txn  pe_sponsor  reduction  loo_dropped_txn  loo_dropped_sponsor  n_fcs  fcs_coef           fcs_term     fcs_p   joint_p                  all_terms  n_multi  benchmark
+0                  None (unconditional)  92  2.220446e-16  2.220446e-16      2.462357  2.474546    2.474606   0.000000                0                    0     29       NaN                          NaN       NaN                                   0        NaN
+1                              Facility  92  3.181271e-01  3.028041e-01      2.122127  2.148433    2.149901  15.597063                0                    0     29       NaN                          NaN       NaN                                   0        NaN
+2                    Facility, industry  92  4.091170e-01  3.747634e-01      2.039148  2.095716    2.099106  18.338995                0                    0     29       NaN                          NaN       NaN                                   0        NaN
+3             Facility, industry, cycle  92  4.103793e-01  3.612443e-01      2.054832  2.129865    2.134619  16.555074                0                    0     29       NaN                          NaN       NaN                                   0        NaN
+4  Facility, industry, cycle, fragility  92  4.125057e-01  3.558797e-01      2.061043  2.147607    2.153198  15.639503                0                    0     29 -0.090856  C(fcs)[T.non-FCS]  0.585102  0.585102  T.non-FCS=-0.091 (p=0.59)        0        NaN
+5               Adding log project cost  79  5.553900e-01  4.973974e-01      1.945431  2.083506    2.094531  22.297377                0                    0     25  0.006023  C(fcs)[T.non-FCS]  0.971557  0.971557   T.non-FCS=0.006 (p=0.97)        0   2.572026

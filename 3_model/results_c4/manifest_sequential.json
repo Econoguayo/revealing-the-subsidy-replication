@@ -1,0 +1,23 @@
+{
+  "run_utc": "2026-10-16T20:09:23+00:00",
+  "python": "3.13.16",
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "code_sha256_16": {
+    "c4_sequential.py": "a925c90f2deab3d7"
+  },
+  "inputs_sha256_16": {
+    "results_c4/c4_comparison.csv": "859eeb416a91d5ae",
+    "results_c3/c3_type_stage.json": "a28f3b741327e5d8"
+  },
+  "checks": {
+    "max_abs_deviation_award_vs_auction": 1.9095836023552692e-14,
+    "max_abs_deviation_formula_vs_enumeration": 3.375077994860476e-13,
+    "access_rules_identity": "holds to 1e-12 for every row"
+  },
+  "definition": "sequential offers of Vbar to up to n independently drawn sponsors; award to the first that accepts",
+  "random_numbers": "none",
+  "outputs": {
+    "c4_sequential.csv": "3253a210ec81a146",
+    "c4_access_rules.csv": "1b6958bdc6e29941"
+  }
+}

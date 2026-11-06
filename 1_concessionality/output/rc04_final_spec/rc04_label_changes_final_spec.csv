@@ -1,0 +1,215 @@
+coding,ProjName,Country,board_date,registry,official,single_country,in_table1_sample,discloses_estimate,retrieved_page
+labelled_M1,Humo SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+labelled_M1,Arvand SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+labelled_M1,RMDC,Nepal,2019-07-29,FCS,non-FCS,1,False,False,True
+labelled_M1,Sonatel Telecom,Sierra Leone,2018-06-21,non-FCS,FCS,1,False,False,True
+labelled_M1,Upper Trishuli-1 Nepal,Nepal,2019-03-21,FCS,non-FCS,1,False,False,True
+labelled_M1,Ghoubet Djibouti Windfarm,Djibouti,2019-11-19,FCS,non-FCS,1,False,False,True
+labelled_M1,EthioChicken ETB,Ethiopia,2021-03-29,FCS,non-FCS,1,True,True,True
+labelled_M1,ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,non-FCS,FCS,1,False,False,True
+labelled_M1,Tulu Moye,Ethiopia,2021-02-01,FCS,non-FCS,1,False,False,True
+labelled_M1,Star Garment Group (SGG Togo),Togo,2023-12-20,FCS,non-FCS,1,True,True,True
+labelled_M2,Humo SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+labelled_M2,Arvand SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+labelled_M2,RMDC,Nepal,2019-07-29,FCS,non-FCS,1,False,False,True
+labelled_M2,Baobab MicroCred,Burkina Faso;Cote d'Ivoire;Congo/ Democratic Republic of;Madagascar;Nigeria;Senegal,2019-06-27,non-FCS,FCS,0,False,False,True
+labelled_M2,Sonatel Telecom,Sierra Leone,2018-06-21,non-FCS,FCS,1,False,False,True
+labelled_M2,IPAE II (I&P AFRIQUE ENTREPRENEURS),Senegal;Cote d'Ivoire;Mali;Burkina Faso;Togo;Cameroon;Congo/ Democratic Republic of;Madagascar;Uganda;Comoros;Kenya;Ghana,2018-03-08,non-FCS,FCS,0,False,False,True
+labelled_M2,Upper Trishuli-1 Nepal,Nepal,2019-03-21,FCS,non-FCS,1,False,False,True
+labelled_M2,Ghoubet Djibouti Windfarm,Djibouti,2019-11-19,FCS,non-FCS,1,False,False,True
+labelled_M2,Africa Medical Equipment Facility (AMEF),Cote d'Ivoire;Cameroon;Senegal;Tanzania;Uganda;Rwanda,2020-11-05,non-FCS,FCS,0,False,True,True
+labelled_M2,Onomo Hotels,Cameroon;Senegal;Mali;Cote d'Ivoire,2021-05-27,non-FCS,FCS,0,False,False,True
+labelled_M2,EthioChicken ETB,Ethiopia,2021-03-29,FCS,non-FCS,1,True,True,True
+labelled_M2,ALCB Fund,Cameroon;Nigeria;Western and Central Africa,2023-12-21,non-FCS,FCS,0,True,True,True
+labelled_M2,ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,non-FCS,FCS,1,False,False,True
+labelled_M2,Tulu Moye,Ethiopia,2021-02-01,FCS,non-FCS,1,False,False,True
+labelled_M2,AIRTEL Mobile Commerce,Chad;Niger;Kenya;Madagascar;Malawi;Rwanda;Uganda;Zambia;Gabon;Seychelles;Congo/ Democratic Republic of;Congo/ Republic of,2022-05-27,non-FCS,FCS,0,False,False,True
+labelled_M2,Ciments de l’Afrique (CIMAF) WEST AFRICA,Mali;Gabon,2021-10-20,non-FCS,FCS,0,False,False,True
+labelled_M2,Azalai Mezzanine,Senegal;Mali;Cote d'Ivoire,2024-12-20,non-FCS,FCS,0,True,True,True
+labelled_M2,Uhuru Growth Fund I,Nigeria;Ghana;Cote d'Ivoire;Senegal;Mali;Burkina Faso,2022-06-24,non-FCS,FCS,0,False,False,True
+labelled_M2,Raxio Data services,Uganda;Mozambique;Cote d'Ivoire;Congo/ Democratic Republic of;Ethiopia,2023-04-18,non-FCS,FCS,0,False,False,True
+labelled_M2,Star Garment Group (SGG Togo),Togo,2023-12-20,FCS,non-FCS,1,True,True,True
+labelled_M2,CSquared RI 4,Congo/ Democratic Republic of;Liberia,2023-07-24,non-FCS,FCS,0,False,False,True
+labelled_M2,Raxio DC,Uganda;Ethiopia;Tanzania;Mozambique;DRC - Angola,2024-07-29,non-FCS,FCS,0,True,True,True
+labelled_M2,Cross Boundary Energy,Madagascar;Rwanda;Mozambique;Sierra Leone,2025-06-30,non-FCS,FCS,0,False,False,True
+labelled_M3,Humo SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+labelled_M3,Arvand SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+labelled_M3,RMDC,Nepal,2019-07-29,FCS,non-FCS,1,False,False,True
+labelled_M3,Sonatel Telecom,Sierra Leone,2018-06-21,non-FCS,FCS,1,False,False,True
+labelled_M3,Upper Trishuli-1 Nepal,Nepal,2019-03-21,FCS,non-FCS,1,False,False,True
+labelled_M3,Ghoubet Djibouti Windfarm,Djibouti,2019-11-19,FCS,non-FCS,1,False,False,True
+labelled_M3,EthioChicken ETB,Ethiopia,2021-03-29,FCS,non-FCS,1,True,True,True
+labelled_M3,ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,non-FCS,FCS,1,False,False,True
+labelled_M3,Tulu Moye,Ethiopia,2021-02-01,FCS,non-FCS,1,False,False,True
+labelled_M3,Star Garment Group (SGG Togo),Togo,2023-12-20,FCS,non-FCS,1,True,True,True
+in_force_M1,Humo SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+in_force_M1,Arvand SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+in_force_M1,RMDC,Nepal,2019-07-29,FCS,non-FCS,1,False,False,True
+in_force_M1,DCM NSIA ABS,Cote d'Ivoire,2020-01-20,non-FCS,FCS,1,False,True,True
+in_force_M1,Sonatel Telecom,Sierra Leone,2018-06-21,non-FCS,FCS,1,False,False,True
+in_force_M1,Upper Trishuli-1 Nepal,Nepal,2019-03-21,FCS,non-FCS,1,False,False,True
+in_force_M1,ACEP Burkina Faso (Credit and Savings Alliance for Production),Burkina Faso,2020-04-24,FCS,non-FCS,1,True,True,True
+in_force_M1,Engee Manufacturing,Nigeria,2020-06-01,FCS,non-FCS,1,True,True,True
+in_force_M1,EthioChicken ETB,Ethiopia,2021-03-29,FCS,non-FCS,1,True,True,True
+in_force_M1,ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,non-FCS,FCS,1,False,False,True
+in_force_M1,Tulu Moye,Ethiopia,2021-02-01,FCS,non-FCS,1,False,False,True
+in_force_M1,Star Garment Group (SGG Togo),Togo,2023-12-20,FCS,non-FCS,1,True,True,True
+in_force_M2,Humo SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+in_force_M2,Arvand SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+in_force_M2,RMDC,Nepal,2019-07-29,FCS,non-FCS,1,False,False,True
+in_force_M2,DCM NSIA ABS,Cote d'Ivoire,2020-01-20,non-FCS,FCS,1,False,True,True
+in_force_M2,Baobab MicroCred,Burkina Faso;Cote d'Ivoire;Congo/ Democratic Republic of;Madagascar;Nigeria;Senegal,2019-06-27,non-FCS,FCS,0,False,False,True
+in_force_M2,Sonatel Telecom,Sierra Leone,2018-06-21,non-FCS,FCS,1,False,False,True
+in_force_M2,IPAE II (I&P AFRIQUE ENTREPRENEURS),Senegal;Cote d'Ivoire;Mali;Burkina Faso;Togo;Cameroon;Congo/ Democratic Republic of;Madagascar;Uganda;Comoros;Kenya;Ghana,2018-03-08,non-FCS,FCS,0,False,False,True
+in_force_M2,Upper Trishuli-1 Nepal,Nepal,2019-03-21,FCS,non-FCS,1,False,False,True
+in_force_M2,Africa Medical Equipment Facility (AMEF),Cote d'Ivoire;Cameroon;Senegal;Tanzania;Uganda;Rwanda,2020-11-05,non-FCS,FCS,0,False,True,True
+in_force_M2,Onomo Hotels,Cameroon;Senegal;Mali;Cote d'Ivoire,2021-05-27,non-FCS,FCS,0,False,False,True
+in_force_M2,ACEP Burkina Faso (Credit and Savings Alliance for Production),Burkina Faso,2020-04-24,FCS,non-FCS,1,True,True,True
+in_force_M2,Engee Manufacturing,Nigeria,2020-06-01,FCS,non-FCS,1,True,True,True
+in_force_M2,EthioChicken ETB,Ethiopia,2021-03-29,FCS,non-FCS,1,True,True,True
+in_force_M2,ALCB Fund,Cameroon;Nigeria;Western and Central Africa,2023-12-21,non-FCS,FCS,0,True,True,True
+in_force_M2,ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,non-FCS,FCS,1,False,False,True
+in_force_M2,Tulu Moye,Ethiopia,2021-02-01,FCS,non-FCS,1,False,False,True
+in_force_M2,AIRTEL Mobile Commerce,Chad;Niger;Kenya;Madagascar;Malawi;Rwanda;Uganda;Zambia;Gabon;Seychelles;Congo/ Democratic Republic of;Congo/ Republic of,2022-05-27,non-FCS,FCS,0,False,False,True
+in_force_M2,Ciments de l’Afrique (CIMAF) WEST AFRICA,Mali;Gabon,2021-10-20,non-FCS,FCS,0,False,False,True
+in_force_M2,Azalai Mezzanine,Senegal;Mali;Cote d'Ivoire,2024-12-20,non-FCS,FCS,0,True,True,True
+in_force_M2,Uhuru Growth Fund I,Nigeria;Ghana;Cote d'Ivoire;Senegal;Mali;Burkina Faso,2022-06-24,non-FCS,FCS,0,False,False,True
+in_force_M2,Raxio Data services,Uganda;Mozambique;Cote d'Ivoire;Congo/ Democratic Republic of;Ethiopia,2023-04-18,non-FCS,FCS,0,False,False,True
+in_force_M2,Star Garment Group (SGG Togo),Togo,2023-12-20,FCS,non-FCS,1,True,True,True
+in_force_M2,CSquared RI 4,Congo/ Democratic Republic of;Liberia,2023-07-24,non-FCS,FCS,0,False,False,True
+in_force_M2,Raxio DC,Uganda;Ethiopia;Tanzania;Mozambique;DRC - Angola,2024-07-29,non-FCS,FCS,0,True,True,True
+in_force_M2,Cross Boundary Energy,Madagascar;Rwanda;Mozambique;Sierra Leone,2025-06-30,non-FCS,FCS,0,False,False,True
+in_force_M3,Humo SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+in_force_M3,Arvand SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+in_force_M3,RMDC,Nepal,2019-07-29,FCS,non-FCS,1,False,False,True
+in_force_M3,DCM NSIA ABS,Cote d'Ivoire,2020-01-20,non-FCS,FCS,1,False,True,True
+in_force_M3,Sonatel Telecom,Sierra Leone,2018-06-21,non-FCS,FCS,1,False,False,True
+in_force_M3,Upper Trishuli-1 Nepal,Nepal,2019-03-21,FCS,non-FCS,1,False,False,True
+in_force_M3,ACEP Burkina Faso (Credit and Savings Alliance for Production),Burkina Faso,2020-04-24,FCS,non-FCS,1,True,True,True
+in_force_M3,Engee Manufacturing,Nigeria,2020-06-01,FCS,non-FCS,1,True,True,True
+in_force_M3,EthioChicken ETB,Ethiopia,2021-03-29,FCS,non-FCS,1,True,True,True
+in_force_M3,ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,non-FCS,FCS,1,False,False,True
+in_force_M3,Tulu Moye,Ethiopia,2021-02-01,FCS,non-FCS,1,False,False,True
+in_force_M3,Star Garment Group (SGG Togo),Togo,2023-12-20,FCS,non-FCS,1,True,True,True
+labelled_3cat,Humo SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+labelled_3cat,Arvand SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+labelled_3cat,CRRH- 12 year,Western and Central Africa,2017-12-19,non-FCS,multi-country,0,False,False,True
+labelled_3cat,CRRH- 15 year,Western and Central Africa,2017-12-19,non-FCS,multi-country,0,False,False,True
+labelled_3cat,RMDC,Nepal,2019-07-29,FCS,non-FCS,1,False,False,True
+labelled_3cat,Baobab MicroCred,Burkina Faso;Cote d'Ivoire;Congo/ Democratic Republic of;Madagascar;Nigeria;Senegal,2019-06-27,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Sonatel Telecom,Sierra Leone,2018-06-21,non-FCS,FCS,1,False,False,True
+labelled_3cat,IPAE II (I&P AFRIQUE ENTREPRENEURS),Senegal;Cote d'Ivoire;Mali;Burkina Faso;Togo;Cameroon;Congo/ Democratic Republic of;Madagascar;Uganda;Comoros;Kenya;Ghana,2018-03-08,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Small Loan Guarantee Program (SLGP I),All PSW Eligible,2018-04-05,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Upper Trishuli-1 Nepal,Nepal,2019-03-21,FCS,non-FCS,1,False,False,True
+labelled_3cat,SME Ventures Platform (IPSVE),All PSW Eligible,2019-06-21,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Ghoubet Djibouti Windfarm,Djibouti,2019-11-19,FCS,non-FCS,1,False,False,True
+labelled_3cat,Small Loan Guarantee Program (SLGP I extension),All PSW Eligible,2019-05-21,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Cerba Africa,West Africa I,2020-06-22,non-FCS,multi-country,0,True,True,True
+labelled_3cat,TCX Fund,All PSW Eligible,2020-08-27,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Africa Medical Equipment Facility (AMEF),Cote d'Ivoire;Cameroon;Senegal;Tanzania;Uganda;Rwanda,2020-11-05,non-FCS,multi-country,0,False,True,True
+labelled_3cat,SLGP European Commission EC/PSW,All PSW Eligible,2022-06-22,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Startup Catalyst,All PSW Eligible,2020-06-01,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Global Trade Finance Program(GTFP)COVID-19 Crisis Response,All PSW Eligible,2020-04-24,non-FCS,multi-country,0,False,True,True
+labelled_3cat,Onomo Hotels,Cameroon;Senegal;Mali;Cote d'Ivoire,2021-05-27,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Real Sector Crisis Response Envelope (RSE),All PSW Eligible,2020-04-24,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Working Capital Solutions (WCS),All PSW Eligible,2020-06-16,non-FCS,multi-country,0,False,True,True
+labelled_3cat,EthioChicken ETB,Ethiopia,2021-03-29,FCS,non-FCS,1,True,True,True
+labelled_3cat,COVID-19 Base of the Pyramid Facility (BOP),All PSW Eligible,2021-02-13,non-FCS,multi-country,0,False,False,False
+labelled_3cat,ALCB Fund,Cameroon;Nigeria;Western and Central Africa,2023-12-21,non-FCS,multi-country,0,True,True,True
+labelled_3cat,ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,non-FCS,FCS,1,False,False,True
+labelled_3cat,Tulu Moye,Ethiopia,2021-02-01,FCS,non-FCS,1,False,False,True
+labelled_3cat,BBI - BMCE Bank International - WCS,Africa,2021-06-28,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Build Back Better Emerging Market Sustainable Finance Transaction (BEST) Bond Fund,All PSW Eligible,2021-10-28,non-FCS,multi-country,0,True,True,True
+labelled_3cat,AIRTEL Mobile Commerce,Chad;Niger;Kenya;Madagascar;Malawi;Rwanda;Uganda;Zambia;Gabon;Seychelles;Congo/ Democratic Republic of;Congo/ Republic of,2022-05-27,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Ciments de l’Afrique (CIMAF) WEST AFRICA,Mali;Gabon,2021-10-20,non-FCS,multi-country,0,False,False,True
+labelled_3cat,RSF Orange Bank,Cote d'Ivoire;Senegal,2023-06-13,non-FCS,multi-country,0,True,True,True
+labelled_3cat,Azalai Mezzanine,Senegal;Mali;Cote d'Ivoire,2024-12-20,non-FCS,multi-country,0,True,True,True
+labelled_3cat,Startup Catalyst II,All PSW Eligible,2022-03-31,non-FCS,multi-country,0,False,False,False
+labelled_3cat,SME Ventures Platform (IPSVE) - Extension,All PSW Eligible,2021-12-17,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Africa Go Green,West Africa I,2022-11-03,non-FCS,multi-country,0,False,False,True
+labelled_3cat,FIG COVID Emergency BoP Program Expansion,All PSW Eligible,2022-03-31,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Africa Trade Recovery Initiative -ATRI,Africa,2022-06-28,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Uhuru Growth Fund I,Nigeria;Ghana;Cote d'Ivoire;Senegal;Mali;Burkina Faso,2022-06-24,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Afrigreen Fund ,West Africa I;Central Africa,2022-12-07,non-FCS,multi-country,0,True,True,True
+labelled_3cat,Africa Release,Africa,2023-12-21,non-FCS,multi-country,0,True,True,True
+labelled_3cat,Venture Capital Envelope (IPVCE),Multi-Regional,2022-11-17,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Raxio Data services,Uganda;Mozambique;Cote d'Ivoire;Congo/ Democratic Republic of;Ethiopia,2023-04-18,non-FCS,multi-country,0,False,False,True
+labelled_3cat,Global Trade Finance Program (GTFP)  Limit Enhancement,All PSW Eligible,2023-06-22,non-FCS,multi-country,0,False,False,True
+labelled_3cat,SME RRF,All PSW Eligible,2023-12-21,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Star Garment Group (SGG Togo),Togo,2023-12-20,FCS,non-FCS,1,True,True,True
+labelled_3cat,CSquared RI 4,Congo/ Democratic Republic of;Liberia,2023-07-24,non-FCS,multi-country,0,False,False,True
+labelled_3cat,DCM Sima Solar,West Africa I,2023-12-20,non-FCS,multi-country,0,False,True,True
+labelled_3cat,FEI Debt Fund ,Africa,2023-12-05,non-FCS,multi-country,0,True,True,True
+labelled_3cat,BOP Extension,World,2023-06-08,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Raxio DC,Uganda;Ethiopia;Tanzania;Mozambique;DRC - Angola,2024-07-29,non-FCS,multi-country,0,True,True,True
+labelled_3cat,Afropa,Liberia;Sierra Leone,2023-12-20,non-FCS,multi-country,0,True,True,True
+labelled_3cat,FIG MSME Finance Platform ,Africa,2024-05-23,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Mohinani Group,Africa,2023-12-21,non-FCS,multi-country,0,True,True,True
+labelled_3cat,CI Sun King,Africa,2024-12-12,non-FCS,multi-country,0,True,True,True
+labelled_3cat,Acumen Hard to Reach fund (H2R),Africa,2024-11-13,non-FCS,multi-country,0,True,True,True
+labelled_3cat,IPT Power Tech,Liberia;Sierra Leone,2025-04-29,non-FCS,multi-country,0,False,False,False
+labelled_3cat,Cross Boundary Energy,Madagascar;Rwanda;Mozambique;Sierra Leone,2025-06-30,non-FCS,multi-country,0,False,False,True
+labelled_3cat,FCTC KEUR SAMBA,Togo;Senegal;Benin,2025-06-30,non-FCS,multi-country,0,False,True,True
+labelled_3cat,Global Supply Chain Finance Program (GSCF),All PSW Eligible,2025-06-26,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Humo SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+in_force_3cat,Arvand SL LCY,Tajikistan,2019-08-27,FCS,non-FCS,1,False,False,True
+in_force_3cat,CRRH- 12 year,Western and Central Africa,2017-12-19,non-FCS,multi-country,0,False,False,True
+in_force_3cat,CRRH- 15 year,Western and Central Africa,2017-12-19,non-FCS,multi-country,0,False,False,True
+in_force_3cat,RMDC,Nepal,2019-07-29,FCS,non-FCS,1,False,False,True
+in_force_3cat,DCM NSIA ABS,Cote d'Ivoire,2020-01-20,non-FCS,FCS,1,False,True,True
+in_force_3cat,Baobab MicroCred,Burkina Faso;Cote d'Ivoire;Congo/ Democratic Republic of;Madagascar;Nigeria;Senegal,2019-06-27,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Sonatel Telecom,Sierra Leone,2018-06-21,non-FCS,FCS,1,False,False,True
+in_force_3cat,IPAE II (I&P AFRIQUE ENTREPRENEURS),Senegal;Cote d'Ivoire;Mali;Burkina Faso;Togo;Cameroon;Congo/ Democratic Republic of;Madagascar;Uganda;Comoros;Kenya;Ghana,2018-03-08,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Small Loan Guarantee Program (SLGP I),All PSW Eligible,2018-04-05,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Upper Trishuli-1 Nepal,Nepal,2019-03-21,FCS,non-FCS,1,False,False,True
+in_force_3cat,SME Ventures Platform (IPSVE),All PSW Eligible,2019-06-21,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Small Loan Guarantee Program (SLGP I extension),All PSW Eligible,2019-05-21,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Cerba Africa,West Africa I,2020-06-22,non-FCS,multi-country,0,True,True,True
+in_force_3cat,TCX Fund,All PSW Eligible,2020-08-27,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Africa Medical Equipment Facility (AMEF),Cote d'Ivoire;Cameroon;Senegal;Tanzania;Uganda;Rwanda,2020-11-05,non-FCS,multi-country,0,False,True,True
+in_force_3cat,SLGP European Commission EC/PSW,All PSW Eligible,2022-06-22,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Startup Catalyst,All PSW Eligible,2020-06-01,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Global Trade Finance Program(GTFP)COVID-19 Crisis Response,All PSW Eligible,2020-04-24,non-FCS,multi-country,0,False,True,True
+in_force_3cat,Onomo Hotels,Cameroon;Senegal;Mali;Cote d'Ivoire,2021-05-27,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Real Sector Crisis Response Envelope (RSE),All PSW Eligible,2020-04-24,non-FCS,multi-country,0,False,False,False
+in_force_3cat,ACEP Burkina Faso (Credit and Savings Alliance for Production),Burkina Faso,2020-04-24,FCS,non-FCS,1,True,True,True
+in_force_3cat,Engee Manufacturing,Nigeria,2020-06-01,FCS,non-FCS,1,True,True,True
+in_force_3cat,Working Capital Solutions (WCS),All PSW Eligible,2020-06-16,non-FCS,multi-country,0,False,True,True
+in_force_3cat,EthioChicken ETB,Ethiopia,2021-03-29,FCS,non-FCS,1,True,True,True
+in_force_3cat,COVID-19 Base of the Pyramid Facility (BOP),All PSW Eligible,2021-02-13,non-FCS,multi-country,0,False,False,False
+in_force_3cat,ALCB Fund,Cameroon;Nigeria;Western and Central Africa,2023-12-21,non-FCS,multi-country,0,True,True,True
+in_force_3cat,ABL LCY Loan (Acleda Lao),Lao People's Democratic Republic,2021-06-28,non-FCS,FCS,1,False,False,True
+in_force_3cat,Tulu Moye,Ethiopia,2021-02-01,FCS,non-FCS,1,False,False,True
+in_force_3cat,BBI - BMCE Bank International - WCS,Africa,2021-06-28,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Build Back Better Emerging Market Sustainable Finance Transaction (BEST) Bond Fund,All PSW Eligible,2021-10-28,non-FCS,multi-country,0,True,True,True
+in_force_3cat,AIRTEL Mobile Commerce,Chad;Niger;Kenya;Madagascar;Malawi;Rwanda;Uganda;Zambia;Gabon;Seychelles;Congo/ Democratic Republic of;Congo/ Republic of,2022-05-27,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Ciments de l’Afrique (CIMAF) WEST AFRICA,Mali;Gabon,2021-10-20,non-FCS,multi-country,0,False,False,True
+in_force_3cat,RSF Orange Bank,Cote d'Ivoire;Senegal,2023-06-13,non-FCS,multi-country,0,True,True,True
+in_force_3cat,Azalai Mezzanine,Senegal;Mali;Cote d'Ivoire,2024-12-20,non-FCS,multi-country,0,True,True,True
+in_force_3cat,Startup Catalyst II,All PSW Eligible,2022-03-31,non-FCS,multi-country,0,False,False,False
+in_force_3cat,SME Ventures Platform (IPSVE) - Extension,All PSW Eligible,2021-12-17,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Africa Go Green,West Africa I,2022-11-03,non-FCS,multi-country,0,False,False,True
+in_force_3cat,FIG COVID Emergency BoP Program Expansion,All PSW Eligible,2022-03-31,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Africa Trade Recovery Initiative -ATRI,Africa,2022-06-28,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Uhuru Growth Fund I,Nigeria;Ghana;Cote d'Ivoire;Senegal;Mali;Burkina Faso,2022-06-24,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Afrigreen Fund ,West Africa I;Central Africa,2022-12-07,non-FCS,multi-country,0,True,True,True
+in_force_3cat,Africa Release,Africa,2023-12-21,non-FCS,multi-country,0,True,True,True
+in_force_3cat,Venture Capital Envelope (IPVCE),Multi-Regional,2022-11-17,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Raxio Data services,Uganda;Mozambique;Cote d'Ivoire;Congo/ Democratic Republic of;Ethiopia,2023-04-18,non-FCS,multi-country,0,False,False,True
+in_force_3cat,Global Trade Finance Program (GTFP)  Limit Enhancement,All PSW Eligible,2023-06-22,non-FCS,multi-country,0,False,False,True
+in_force_3cat,SME RRF,All PSW Eligible,2023-12-21,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Star Garment Group (SGG Togo),Togo,2023-12-20,FCS,non-FCS,1,True,True,True
+in_force_3cat,CSquared RI 4,Congo/ Democratic Republic of;Liberia,2023-07-24,non-FCS,multi-country,0,False,False,True
+in_force_3cat,DCM Sima Solar,West Africa I,2023-12-20,non-FCS,multi-country,0,False,True,True
+in_force_3cat,FEI Debt Fund ,Africa,2023-12-05,non-FCS,multi-country,0,True,True,True
+in_force_3cat,BOP Extension,World,2023-06-08,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Raxio DC,Uganda;Ethiopia;Tanzania;Mozambique;DRC - Angola,2024-07-29,non-FCS,multi-country,0,True,True,True
+in_force_3cat,Afropa,Liberia;Sierra Leone,2023-12-20,non-FCS,multi-country,0,True,True,True
+in_force_3cat,FIG MSME Finance Platform ,Africa,2024-05-23,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Mohinani Group,Africa,2023-12-21,non-FCS,multi-country,0,True,True,True
+in_force_3cat,CI Sun King,Africa,2024-12-12,non-FCS,multi-country,0,True,True,True
+in_force_3cat,Acumen Hard to Reach fund (H2R),Africa,2024-11-13,non-FCS,multi-country,0,True,True,True
+in_force_3cat,IPT Power Tech,Liberia;Sierra Leone,2025-04-29,non-FCS,multi-country,0,False,False,False
+in_force_3cat,Cross Boundary Energy,Madagascar;Rwanda;Mozambique;Sierra Leone,2025-06-30,non-FCS,multi-country,0,False,False,True
+in_force_3cat,FCTC KEUR SAMBA,Togo;Senegal;Benin,2025-06-30,non-FCS,multi-country,0,False,True,True
+in_force_3cat,Global Supply Chain Finance Program (GSCF),All PSW Eligible,2025-06-26,non-FCS,multi-country,0,False,False,False
